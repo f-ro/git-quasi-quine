@@ -1,16 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import axios from 'axios'
+import React  from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
+import Commits from './components/commits'
 
-let api_url = `https://api.github.com/repos`
-let user = `f-ro`
-let repo = `git-quasi-quine`
-
-function getAllCommitsForMainBranch() {
-    axios({
-        method: "GET",
-        url: `${api_url}/${user}/${repo}/commits?sha=main`,
-    }).then(rslt => {console.log(rslt.data)})
+const App = () => {
+    return(
+        <BrowserRouter>
+            <Route path="/" exact component={Commits}/>
+        </BrowserRouter>
+    )
 }
 
-getAllCommitsForMainBranch() 
+ReactDOM.render(<App/>, document.getElementById('root'))
