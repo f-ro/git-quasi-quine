@@ -4,7 +4,7 @@ import Commit from './commit'
 
 const api_url = `https://api.github.com/repos`
 const user = `f-ro`
-const repo = `github-semiquine`
+const repo = `git-quasi-quine`
 
 class Commits extends React.Component {
     constructor(props) {
