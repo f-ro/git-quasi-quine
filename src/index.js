@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom'
 import Header from './components/header'
 import Commits from './components/commits'
 import Profile from './components/profile'
+import Activity from './components/activity'
 
 const App = () => 
         <div className='App'>
@@ -12,6 +13,7 @@ const App = () =>
                 <Route exact path="/" component={Header}/>
                 <Route exact path='/commits' component={Commits} />
                 <Route exact path='/profile' component={Profile} />
+                <Route exact path='/activity' component={Activity} />
             </BrowserRouter>
         </div>
 

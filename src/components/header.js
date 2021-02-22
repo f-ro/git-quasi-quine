@@ -18,7 +18,7 @@ const Header = () => {
               <div className='header'>
                   <HeaderLink page='commits' selected={page === 'commits'}/>
                   <HeaderLink page='profile' selected={page === 'profile'}/>
-                  <HeaderLink page='extra' selected={page === 'extra'}/>
+                  <HeaderLink page='activity' selected={page === 'activity'}/>
               </div>
               {page === '' ? <div className='home-div'>{home_txt}</div> : ''}
             </div>
