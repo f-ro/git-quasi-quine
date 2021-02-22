@@ -4,7 +4,7 @@ import './commit.css';
 const Commit = ({sha, author, date, message}) =>
     <div className='commit'>
         <div>{message}</div>
-        <div>By: {author}, on {date}</div>
+        <div>By: {author}, on {new Date(date).toString()}</div>
         <div>{sha}</div>
     </div>
 
