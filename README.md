@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+Project Installation Instructions (Mac OS X):
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---Requirements---
 
-## Available Scripts
+The software below must be installed in your machine in order for the steps below to work (versions listed are those used during development and testing of this app):
+● Node.js (v14.15.5)
+● npm  (v6.14.11)
+● git  (v2.10.1)
 
-In the project directory, you can run:
+If you are unsure as to whether the software above is installed in your machine, use the following commands in Terminal. If nothing is displayed, that means it's not installed, otherwise the commands will display a path:
 
-### `npm start`
+which node
+which npm
+which git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To verify their versions:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+node --version
+npm --version
+git --version
 
-### `npm test`
+---Installation Steps---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1) In Terminal, cd to a directory of your choice where the project's directory may be downloaded to
 
-### `npm run build`
+2) Run the following command to download the project's source code (1 directory will be created):
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone https://github.com/f-ro/git-quasi-quine.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3) A new directory named git-quasi-quine will have been created, cd into that directory
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4) Run the following command to install the project dependencies:
 
-### `npm run eject`
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+6)Run the following command to install to start your local server:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+7) When the server is done launching, your default browser should run automatically and display the project's landing page, otherwise manually copy-paste the url displayed in Terminal after the previous npm start command completes, e.g. http://localhost:3000
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+8) The project should be fully functional in your browser
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---Uninstall---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Simply delete the project's directory (git-quasi-quine)
