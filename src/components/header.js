@@ -20,7 +20,7 @@ const Header = () => {
                   <HeaderLink page='profile' selected={page === 'profile'}/>
                   <HeaderLink page='extra' selected={page === 'extra'}/>
               </div>
-              {page === '' ? <div className='home-div'>${home_txt}</div> : ''}
+              {page === '' ? <div className='home-div'>{home_txt}</div> : ''}
             </div>
   }
   

@@ -26,11 +26,13 @@ class Commits extends React.Component {
 
     render() {
         const {commits} = this.state
-        return <div>
-                {commits.map(
-                    (commit_data, i) => <div key={i}>
-                                            <Commit message={`${commit_data.commit.message}`}/>
-                                        </div>)}
+        return <div>{commits.map((d, i) =>
+                    <div key={i}>
+                        <Commit sha={`${d.sha}`} 
+                                author={`${d.commit.author.name}`} 
+                                date={`${d.commit.author.date}`} 
+                                message={`${d.commit.message}`}/>
+                    </div>)}
                </div>
     }
 }
