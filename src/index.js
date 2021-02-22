@@ -5,6 +5,7 @@ import Header from './components/header'
 import Commits from './components/commits'
 import Profile from './components/profile'
 import Activity from './components/activity'
+import './index.css';
 
 const App = () => 
         <div className='App'>
