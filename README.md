@@ -40,13 +40,13 @@ git clone https://github.com/f-ro/git-quasi-quine.git
 
 npm install
 
-6)Run the following command to install to start your local server:
+5) Run the following command to install to start your local server:
 
 npm start
 
-7) When the server is done launching, your default browser should run automatically and display the project's landing page, otherwise manually copy-paste the url displayed in Terminal after the previous npm start command completes, e.g. http://localhost:3000
+6) When the server is done launching, your default browser should run automatically and display the project's landing page, otherwise manually copy-paste the url displayed in Terminal after the previous npm start command completes, e.g. http://localhost:3000
 
-8) The project should be fully functional in your browser
+7) The project should be fully functional in your browser
 
 ---Uninstall---
 
