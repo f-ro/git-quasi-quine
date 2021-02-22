@@ -3,20 +3,27 @@ Project Installation Instructions (Mac OS X):
 ---Requirements---
 
 The software below must be installed in your machine in order for the steps below to work (versions listed are those used during development and testing of this app):
+
 ● Node.js (v14.15.5)
+
 ● npm  (v6.14.11)
+
 ● git  (v2.10.1)
 
 If you are unsure as to whether the software above is installed in your machine, use the following commands in Terminal. If nothing is displayed, that means it's not installed, otherwise the commands will display a path:
 
 which node
+
 which npm
+
 which git
 
 To verify their versions:
 
 node --version
+
 npm --version
+
 git --version
 
 ---Installation Steps---
@@ -40,7 +47,6 @@ npm start
 7) When the server is done launching, your default browser should run automatically and display the project's landing page, otherwise manually copy-paste the url displayed in Terminal after the previous npm start command completes, e.g. http://localhost:3000
 
 8) The project should be fully functional in your browser
-
 
 ---Uninstall---
 
