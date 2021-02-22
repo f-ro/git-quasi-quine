@@ -26,7 +26,7 @@ class Commits extends React.Component {
 
     render() {
         const {commits} = this.state
-        return <div>{commits.map((d, i) =>
+        return <div>{commits.length == 0 ? '(Retrieving commit history, please wait ...' : commits.map((d, i) =>
                     <div key={i}>
                         <Commit sha={`${d.sha}`} 
                                 author={`${d.commit.author.name}`} 
